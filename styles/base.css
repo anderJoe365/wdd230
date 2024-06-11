@@ -1,0 +1,16 @@
+header, h2 {
+    background: crimson;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+

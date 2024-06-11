@@ -1,0 +1,16 @@
+@media screen and (min-width: 500px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        grid-column-start: 3;
+        grid-column-end: 1;
+    }
+}

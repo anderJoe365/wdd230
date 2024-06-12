@@ -1,16 +1,37 @@
-header, h2 {
+header {
     background: crimson;
     text-align: center;
+    padding: 2rem;
+    font-size: 2em;
 }
 nav {
     display: flex;
     flex-direction: column;
     background: black;
     align-items: center;
+    padding: 1rem;
+    font-size: 25px;
+
+}
+nav a {
+    display: block;
+    color: beige;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: aquamarine;
+    background-color: blueviolet;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+footer {
+    text-align: center;
 }
 

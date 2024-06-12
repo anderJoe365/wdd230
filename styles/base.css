@@ -1,8 +1,13 @@
 header {
+    display: grid;
     background: crimson;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 2em;
+}
+header img {
+    max-width: 100px;
+    padding-right: 1em;
 }
 nav {
     display: flex;
@@ -17,15 +22,15 @@ nav a {
     display: block;
     color: beige;
     text-decoration: none;
-    
 }
-nav a:link, nav a:visited {
-    color: brown;
-} 
 
 nav a:hover {
     color: aquamarine;
     background-color: blueviolet;
+}
+
+h1 {
+    border-bottom: 1px dotted black;
 }
 
 main {
@@ -37,4 +42,17 @@ main {
 footer {
     text-align: center;
 }
+
+.card {
+    border: 1px solid grey;
+
+}
+.card h2 {
+    background: crimson;
+    font-size: 2rem;
+    margin: 0;
+    padding: .5em;
+}
+
+
 

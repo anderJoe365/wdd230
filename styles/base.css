@@ -19,6 +19,9 @@ nav a {
     text-decoration: none;
     
 }
+nav a:link, nav a:visited {
+    color: brown;
+} 
 
 nav a:hover {
     color: aquamarine;

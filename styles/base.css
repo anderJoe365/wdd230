@@ -1,14 +1,16 @@
 header {
-    display: grid;
     background: crimson;
-    text-align: center;
     padding: 1rem;
     font-size: 2em;
+    justify-items: center;
+    align-items: center;
+    
 }
 header img {
     max-width: 100px;
     padding-right: 1em;
 }
+
 nav {
     display: flex;
     flex-direction: column;
